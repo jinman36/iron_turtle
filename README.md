@@ -4,9 +4,9 @@
 - Step 2: subl README.md
   - Add ip as export to note pad
     - export IP={IP}
-    - namp results
-- Step 3: create namp directory
-  - nmap -sC -sV -oN nmap/initial
+    - nmap results
+- Step 3: create nmap directory
+  - nmap -sC -sV -oN [file location]} $IP
 - Grab IP address
 
 ## Set up Nikto scanner
