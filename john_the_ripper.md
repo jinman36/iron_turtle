@@ -14,5 +14,17 @@ rockyou.txt wordlist from the SecLists repository under the /Passwords/Leaked-Da
   - and then run the following to identify the hash
     python3 hash-id.py
 
-# FOrmat-specific Cracking
+# Format-specific Cracking
 - john --format=[format] --wordlist=[path to wordlist] [path to file]
+
+# Unshadowing
+- unshadow [path to passwd] [path to shadow]
+- unshadow - invokes the unshadow tool
+- [path to passwd] - the file that contains thecopy of the /etc/passwd file youve taken from the tarrget machine
+- [path to shadow] - file that contains the copy of th e/etc/shadow file youve taken from the target machine
+ - Example
+    - unshadow local_passwd local_shadow > unshadowed.txt
+
+# Single Crack mode
+- john --single --format=[format] [path to file]
+
