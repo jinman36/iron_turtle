@@ -8,7 +8,7 @@ rockyou.txt wordlist from the SecLists repository under the /Passwords/Leaked-Da
 - basic use for wordlists
 - john --wordlist=[path to wordlist] [path to file]
 
-# Identifying hashing
+# Identifying hashing ** Use this more**
 - occasionally john cant identify hashes correctly - use the following to identify the hash type
   - wget https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py
   - and then run the following to identify the hash
@@ -28,3 +28,4 @@ rockyou.txt wordlist from the SecLists repository under the /Passwords/Leaked-Da
 # Single Crack mode
 - john --single --format=[format] [path to file]
 
+# Custom Rules
