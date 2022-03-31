@@ -53,3 +53,18 @@ rockyou.txt wordlist from the SecLists repository under the /Passwords/Leaked-Da
 - basic usage
   - zip2john [options] [zip file] > [output file]
   - john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt
+
+  # Cracking Password protected RAR Files
+  - rar2john [rar file] > [output file]
+    -this works in theory but I couldnt get the attack box version of Kali to recognize rar2john command
+    - before running the JTR basic command, it may be required to DL unrar to further read the unlocked rar file
+
+    # cracking ssh with john
+    - ssh2john [id_rsa.rar file] > id_rsa.txt
+    - *** if john cannot find ssh2john (like me) run the following:
+      - locate ssh2john
+      - /opt/john/ssh2john.py
+
+      - command to run will like the following
+        - python3 /opt/john/ssh2john.py [id_rsa.rar file] > id_rsa.txt
+        - john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa.txt
