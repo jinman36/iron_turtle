@@ -1,0 +1,6 @@
+- What does nmap stand for - network mapper
+- how do you specify which port(s) to scan -p
+- How do you do a "ping" -sn
+- what is the flag for UDP scan -sU
+- How do you run default scripts -sC
+- Agreesive mode (enables OS detection, version detection, script scanning, and traceroute) -a
