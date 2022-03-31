@@ -29,3 +29,27 @@ rockyou.txt wordlist from the SecLists repository under the /Passwords/Leaked-Da
 - john --single --format=[format] [path to file]
 
 # Custom Rules
+- custom rule are defined by using 
+  - john.config
+- [List.Rules:RuleName] - is used to define the name of your rule
+
+- Rules are defined using Regex identifiers
+ - common examples are:
+ - Az - Takes the word and appends it with the characters you define
+- A0 - Takes the word and prepends it with the characters you define
+- c - Capitalises the character positionally
+- [0-9] - Will include numbers 0-9
+- [0] - Will include only the number 0
+- [A-z] - Will include both upper and lowercase
+- [A-Z] - Will include only uppercase letters
+- [a-z] - Will include only lowercase letters
+- [a] - Will include only a
+- [!£$%@] - Will include the symbols !£$%@
+
+- example to run full custom password rule
+  - john --wordlist=[path to wordlist] --rule=RuleName [path to file]
+
+# Cracking password protected Zip files
+- basic usage
+  - zip2john [options] [zip file] > [output file]
+  - john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt
