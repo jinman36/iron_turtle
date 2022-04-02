@@ -15,8 +15,8 @@
 
 # Set up gobuster
   - export IP
-  - gobuster -u http://$IP -w /opt/rockyou.txt
-  - gobuster -u http://$IP -w /opt/directory-list-2.3-medium.txt -x php.sh.txt, cgi, html, js, css, py
+  - gobuster dir -u <url> -w <wordlist_file.txt> -x <file_extensions>
+  - gobuster dir -u http://workers.htb -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x php,php3,html
 
 
 ## Investigation options
