@@ -71,6 +71,8 @@ https://nordpass.com/secure-password/
 
 ### Operating Systems and Virtualization
 - [Linux - VMware Installation](https://tutorials.cyberaces.org/tutorials/view/1-1-1.html)
+
+- ** need to figure out what I am doing wrong with the centOS VM
 ### Networks
 ### Google-Fu
 ### Conclusion
