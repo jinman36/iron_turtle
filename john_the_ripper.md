@@ -68,3 +68,12 @@ rockyou.txt wordlist from the SecLists repository under the /Passwords/Leaked-Da
       - command to run will like the following
         - python3 /opt/john/ssh2john.py [id_rsa.rar file] > id_rsa.txt
         - john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa.txt
+
+    # GPG 
+    - gpg2john
+
+    - GPG with a key (gpg --help)
+    - import GPG key
+      - gpg --import [file]
+      - gpg -d [file]
+      - this will cat the message in the terminal
