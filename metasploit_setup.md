@@ -1,0 +1,4 @@
+- initialize msploit
+  - msfdb init
+- advanced options
+  - msfconsole -h
