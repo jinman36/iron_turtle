@@ -5,7 +5,8 @@
 
 # Recon
 - nmap -sC -sV -oN ~/blue/initial_nmap $IP -vv
-- exploit - SMBv2 - Shodowbox - ms17-010
+- exploit - SMBv2 - [Shodowbrokers](https://freesoft.dev/program/88928207)
+  - ms17-010
 
 # Access
 - msfconsole
