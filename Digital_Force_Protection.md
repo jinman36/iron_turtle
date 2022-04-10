@@ -72,7 +72,21 @@ https://nordpass.com/secure-password/
 ### Operating Systems and Virtualization
 - [Linux - VMware Installation](https://tutorials.cyberaces.org/tutorials/view/1-1-1.html)
 
-- ** need to figure out what I am doing wrong with the centOS VM
+#### System Backdoor Exercize
+- sudo -i
+- cat << EOF >> /etc/systemd/system/EvilHackerBackdoor.service
+- ***file in scripts, or enter each line individually
+- systemctl enable EvilHackerBackdoor
+- systemctl list-unit-files | grep EvilHackerBackdoor
+  - To start and stop backdoor use following comands
+    - systemctl start EvilHackerBackdoor
+    - systemctl stop EvilHackerBackdoor
+    - systemctl disable EvilHackerBackdoor
+
+- Cleanup
+  - rm /etc/systemd/system/EvilHackerBackdoor.service
+   - remove - y
 ### Networks
 ### Google-Fu
 ### Conclusion
+
