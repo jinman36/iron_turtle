@@ -86,7 +86,83 @@ https://nordpass.com/secure-password/
 - Cleanup
   - rm /etc/systemd/system/EvilHackerBackdoor.service
    - remove - y
+
+#### SUID Bit Exercize
+- Provides a list of SUID folders at root level access
+  - sudo -i
+  - find / -uid 0 -perm -4000 2>/dev/null
+
+- Creating folders to hide malicius material in
+- ls -hal
+  - mkdir ...
+  - mkdir ' '
+
+- Finding hidden directories (sudo -i)
+  - find / -name " " 2>/dev/null
+  - find / -name ... 2>/dev/null
+  - ...
+  - rm -rf /home/cyberaces/" "
+  - rm -rf /home/cyberaces/...
+  - find / -name " " 2>/dev/null
+  - find / -name ... 2>/dev/null
+
+### Installing Software - Linux
+  - red-hat distro- RPM
+  - debian distro - APT
+
+- Find a package in centOS
+  - rpm -qa | grep [package name - tcpdump, nmap, etc]
+    - rpm -qa - generates a list of all installed packages
+    - | grep XXX searches that list for XXX
+- install a package in centOS
+  - sudo yum install [package name - tcpdum, nmap, etc]
+- update
+  - sudo yum update
+  - yum update --exclude httpd
+
+### Windows
+- Basic Command Line Operations
+  - dir \ - In drive Root (backslash)
+  - dir myfolder - into subfolder
+  - dir .. - up one level
+  - dir d: - another drive
+  - dir *.exe - files witht eh exe extension
+  - dir /ah - Hidden files and directories
+  - dir /r - Display alternate data streams
+  - md "this directory has a space' - make directory with a space
+  - c: d: - chage drives
+  - cd or chdir - change directory
+    - cd \ - to drive root
+    - cd myfolder - into subfolder
+    - cd .. - up one level
+  - cd 'my docuemnts' - Name with spaces
+  - cd my* - using partial name
+  - ren a.txt b.txt - rename a file
+  - del a.txt - delete a file
+  - copy a.txt b.txt - copy a file
+  - type file1.txt - view text file
+    - only used on text files
+  - attrib a.txt +h - make a file hidden
+  - attrib a.txt -h - make a file unhidden
+  - dir /A:H - list hidden files
+
+- tasklist
+- taskkill (/?)
+- ipconfig
+- netstat (good flag to use -ano)
+- ping
+- tracert
+
 ### Networks
+- OSI Model
+  7. Application
+  6. Presentation
+  5. Session
+  4. Transport
+  3. Network
+  2. Data Link
+  1. Physical
+####
 ### Google-Fu
 ### Conclusion
 
