@@ -23,3 +23,4 @@ Remote login
   #### Helpful links common to all tools
   - Wordlist - [Rockyou](https://github.com/zacheller/rockyou)
   - Wordlist - [SecLists](https://github.com/danielmiessler/SecLists)
+  - LinEnum - [LinEnum](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh)
