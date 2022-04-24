@@ -25,3 +25,4 @@ Remote login
   - [SecLists](https://github.com/danielmiessler/SecLists)
   - [LinEnum](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh)
   - [Shell Escape Sequences](https://gtfobins.github.io/)
+  - [php reverse shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
