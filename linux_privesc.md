@@ -29,7 +29,7 @@
   - this required looking at a cheetsheet - as vi is not intuitive to use
 
 ## Checking privlidges
-- everytime you own the box and get root or sper user access run the follwoing to check command access
+- everytime you own the box and get root or sper user access run the follwoing to check command accesse
   - sudo -l
 - this can be run to determine what access you have once you gain a foothold
   - sudo vi
