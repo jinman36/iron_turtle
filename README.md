@@ -26,3 +26,7 @@ Remote login
   - [LinEnum](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh)
   - [Shell Escape Sequences](https://gtfobins.github.io/)
   - [php reverse shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
+  - [OWASP Favicon Database](https://wiki.owasp.org/index.php/OWASP_favicon_database)
+  - [WayBackMachine](https://archive.org/web/)
+  - [HTTPS Certificates database](https://transparencyreport.google.com/https/certificates)
+  - [CRT Certificate Search](https://crt.sh/)
