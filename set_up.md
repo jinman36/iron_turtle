@@ -9,6 +9,9 @@
   - nmap -sC -sV -oN [file location]} $IP
 - Grab IP address
 
+## Rockyou extracting or other file extraction
+> tar -xvf /usr/share/wordlist/rockyou.tar.gz
+
 ## Set up Nikto scanner
   - export IP={IP}
   - nikto -h http://$IP | tee nikto.log
