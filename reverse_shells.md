@@ -2,6 +2,16 @@
 - socat
 - msfvenom
 
+- python shell stabilization (interactive shell) - makes it pretier but still lacking some fuctionality
+  - python -c 'import pty;pty.spawn("/bin/bash")'
+Adding the below will add access to the term 'clear'
+  - export TERM=xterm
+- then back ground the shell
+  - ^Z
+- turn off the host teminal echo and foreground the stabilized shell
+  - stty raw -echo; fg
+
+  
 
 - [Payload All The Things](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
 - Pentest Monkey [Reverse Sheel Cheatsheet](https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
