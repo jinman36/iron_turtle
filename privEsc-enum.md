@@ -8,6 +8,7 @@ Execute any administrative command
 Enumeration commands
 - hostname
 - uname -a
+- lsb_release -a
 - /proc/version
 - /etc/issue
 - ps
